@@ -45,7 +45,12 @@
                 "persistentRestrictions": false
             },
             "utils": {},
-            "hypermedia": {}
+            "hypermedia": {
+                "api": {
+                    "home": "http://localhost:8080/rest/",
+                    "ecommerce": "@home"
+                }
+            }
         }
     }
 }

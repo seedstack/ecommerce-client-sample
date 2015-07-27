@@ -1,3 +1,6 @@
+/* globals module: true, grunt true */
+/* jshint strict: false */
+
 module.exports = function(grunt) {
 
   grunt.initConfig({
@@ -14,4 +17,4 @@ module.exports = function(grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.registerTask('default', ['connect']);
-}
+};
