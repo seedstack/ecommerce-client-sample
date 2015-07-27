@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "dependencies": {
     "angular-mocks": "1.3.6",
-    "w20": "https://github.com/seedstack/w20.git#3d90c2b81a5abd1f83d88953d39aa7c959e32e57"
+    "w20": "https://github.com/seedstack/w20.git#f77a6919ac1d98c9e353b602a4e6f26d66051406"
   },
   "resolutions": {
     "angular": ">=1.3.0"
