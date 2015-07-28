@@ -47,7 +47,7 @@
             "utils": {},
             "hypermedia": {
                 "api": {
-                    "home": "http://localhost:8080/rest/",
+                    "home": "http://localhost:8080/",
                     "ecommerce": "@home"
                 }
             }

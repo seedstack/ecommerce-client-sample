@@ -30,16 +30,20 @@
 
     <!-- Pager -->
     <div class="row">
-        <button data-ng-click="previousPage()"
-                data-ng-show="previous"
-                class="btn btn-default pull-left">
-            <i class="fa fa-arrow-left"></i> Previous
-        </button>
-        <button data-ng-click="nextPage()"
-                data-ng-show="next"
-                class="btn btn-default pull-right">
-            Next <i class="fa fa-arrow-right"></i>
-        </button>
+
+        <div class="pull-right">
+            <button data-ng-click="previousPage()"
+                    data-ng-show="previous"
+                    class="btn btn-default">
+                <i class="fa fa-arrow-left"></i> Previous
+            </button>
+            <button data-ng-click="nextPage()"
+                    data-ng-show="next"
+                    class="btn btn-default">
+                Next <i class="fa fa-arrow-right"></i>
+            </button>
+        </div>
+
     </div>
     <!-- /.row -->
     <hr/>
