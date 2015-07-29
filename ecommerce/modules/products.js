@@ -17,21 +17,14 @@ define([
 
             $scope.products = resource.$embedded ? resource.$embedded('products') : [];
 
-            if (!($scope.products instanceof Array)) {
-                $scope.products = [$scope.products];
-            }
-
             $scope.next = resource.$links('next');
             $scope.previous = resource.$links('prev');
 
             angular.forEach($scope.products, function (product) {
-                if (product.$links) {
 
-                    product.$links('tags').get(function (tags) {
-                        product.tags = tags.$embedded('tags');
-                    });
-
-                }
+                product.$links('tags').get(function (tags) {
+                    product.tags = tags.$embedded('tags');
+                });
 
             });
 
