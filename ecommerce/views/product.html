@@ -19,16 +19,17 @@
         </div>
 
         <div class="col-md-4">
-            <h3>Project Description</h3>
-
-            <p class="text-justify"> {{ product.description }}</p>
-
             <h3>Project Details</h3>
             <ul class="list-group">
-                <li class="list-group-item"data-ng-repeat="detail in product.details">
+                <li class="list-group-item" data-ng-repeat="detail in product.details">
                     {{ detail }}
                 </li>
             </ul>
+        </div>
+
+        <div class="col-md-12">
+            <h3>Project Description</h3>
+            <p class="text-justify"> {{ product.description }}</p>
         </div>
 
     </div>
