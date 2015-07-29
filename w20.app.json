@@ -3,48 +3,18 @@
 
     "bower_components/w20/ui/w20-ui.w20.json": {
         "modules": {
-            "select": {},
-            "grid": {},
-            "ui": {
-                "expandedRouteCategories": []
-            },
-            "notifications": {
-                "disableNotifications": false,
-                "position": "bottom-right",
-                "limit": 10,
-                "options": {}
-            },
-            "text": {}
         }
     },
+
     "bower_components/w20/core/w20-core.w20.json": {
         "modules": {
             "application": {
-                "id": "",
+                "id": "products",
                 "home": "/ecommerce/products",
                 "blank": "/blank",
                 "notFound": "/not-found",
-                "redirectAfterRouteError": "/ecommerce/products",
-                "defaultSandboxPermissions": "",
-                "defaultSandboxId": ""
+                "redirectAfterRouteError": "/ecommerce/products"
             },
-            "culture": {
-                "available": [
-                    "en",
-                    "fr"
-                ],
-                "default": "en"
-            },
-            "env": {
-                "type": "test"
-            },
-            "security": {
-                "autoLogin": true,
-                "redirectAfterLogout": "/",
-                "redirectAfterLogin": "/",
-                "persistentRestrictions": false
-            },
-            "utils": {},
             "hypermedia": {
                 "api": {
                     "home": "http://localhost:8080/",
