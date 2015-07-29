@@ -17,7 +17,10 @@ define([
 
         function setup(selected) {
             $scope.product = selected;
-            // $scope.relatedProducts = $scope.product.$embedded('related');
+
+            selected.$links('related').get(function (related) {
+                $scope.relatedProducts = related.$embedded ? related.$embedded('related') : [];
+            });
         }
 
         $scope.select = function (product) {
