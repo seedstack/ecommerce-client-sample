@@ -24,8 +24,11 @@
             <p class="text-justify"> {{ product.description }}</p>
 
             <h3>Project Details</h3>
-
-            <p>{{ product.description }}</p>
+            <ul class="list-group">
+                <li class="list-group-item"data-ng-repeat="detail in product.details">
+                    {{ detail }}
+                </li>
+            </ul>
         </div>
 
     </div>
