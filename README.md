@@ -1,23 +1,17 @@
-# E-commerce client sample
+# W20 hypermedia sample
 
-A W20 client for the catalog microservice.
+A W20 project demonstrating hypermedia features.
 
-Install the sample:
+# Running it
 
-# Getting started
-
-```
-git clone https://github.com/seedstack/ecommerce-client-sample.git
-cd  ecommerce-client-sample
-npm install
-bower install
-```
-
-Run the sample:
-
+    git clone https://github.com/seedstack/w20-hypermedia-sample.git
+    cd w20-hypermedia-sample
+    npm install
+    bower install
     grunt connect
-    
-In order to get some data you can run the [catalog-microservice-sample](https://github.com/seedstack/catalog-microservice-sample).
+
+For this sample to work, you should also be running the [catalog micro-service sample](https://github.com/seedstack/catalog-microservice-sample)
+along.
 
 # Copyright and license
 
