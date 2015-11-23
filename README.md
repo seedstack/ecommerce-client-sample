@@ -13,6 +13,12 @@ A W20 project demonstrating hypermedia features.
 For this sample to work, you should also be running the [catalog micro-service sample](https://github.com/seedstack/catalog-microservice-sample)
 along.
 
+# Usage
+
+Just point your favorite browser to the following URL:
+
+    http://localhost:9001
+
 # Copyright and license
 
 This source code is copyrighted by [The SeedStack Authors](https://github.com/seedstack/seedstack/blob/master/AUTHORS) and
