@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-client-sample",
+  "name": "w20-hypermedia--sample",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "^0.4.5",

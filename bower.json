@@ -1,5 +1,5 @@
 {
-  "name": "ecommerce-client-sample",
+  "name": "w20-hypermedia-sample",
   "version": "1.0.0",
   "dependencies": {
     "angular-mocks": "1.3.6",
