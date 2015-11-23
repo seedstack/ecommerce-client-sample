@@ -4,8 +4,6 @@ A W20 project demonstrating hypermedia features.
 
 # Running it
 
-    git clone https://github.com/seedstack/w20-hypermedia-sample.git
-    cd w20-hypermedia-sample
     npm install
     bower install
     grunt connect
